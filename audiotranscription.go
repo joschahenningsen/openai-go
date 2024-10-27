@@ -82,6 +82,13 @@ type AudioTranscriptionNewParams struct {
 	// [prompt](https://platform.openai.com/docs/guides/speech-to-text/prompting)
 	// should match the audio language.
 	Prompt param.Field[string] `json:"prompt"`
+	// If True, the previous output of the model is provided
+	// as a prompt for the next window; disabling may make the text inconsistent across
+	// windows, but the model becomes less prone to getting stuck in a failure loop,
+	// such as repetition looping or timestamps going out of sync.
+	ConditionOnPreviousText param.Field[bool] `json:"condition_on_previous_text"`
+	// Adds support for faster-whisper's voice activity detection. Enabled if True.
+	VadFilter param.Field[bool] `json:"vad_filter"`
 	// The format of the output, in one of these options: `json`, `text`, `srt`,
 	// `verbose_json`, or `vtt`.
 	ResponseFormat param.Field[AudioResponseFormat] `json:"response_format"`
