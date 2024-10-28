@@ -12,13 +12,13 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/openai/openai-go/internal/apiform"
-	"github.com/openai/openai-go/internal/apijson"
-	"github.com/openai/openai-go/internal/apiquery"
-	"github.com/openai/openai-go/internal/param"
-	"github.com/openai/openai-go/internal/requestconfig"
-	"github.com/openai/openai-go/option"
-	"github.com/openai/openai-go/packages/pagination"
+	"github.com/joschahenningsen/openai-go/internal/apiform"
+	"github.com/joschahenningsen/openai-go/internal/apijson"
+	"github.com/joschahenningsen/openai-go/internal/apiquery"
+	"github.com/joschahenningsen/openai-go/internal/param"
+	"github.com/joschahenningsen/openai-go/internal/requestconfig"
+	"github.com/joschahenningsen/openai-go/option"
+	"github.com/joschahenningsen/openai-go/packages/pagination"
 )
 
 // FileService contains methods and other services that help with interacting with

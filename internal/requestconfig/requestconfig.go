@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openai/openai-go/internal"
-	"github.com/openai/openai-go/internal/apierror"
-	"github.com/openai/openai-go/internal/apiform"
-	"github.com/openai/openai-go/internal/apiquery"
+	"github.com/joschahenningsen/openai-go/internal"
+	"github.com/joschahenningsen/openai-go/internal/apierror"
+	"github.com/joschahenningsen/openai-go/internal/apiform"
+	"github.com/joschahenningsen/openai-go/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

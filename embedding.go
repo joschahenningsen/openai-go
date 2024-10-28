@@ -6,10 +6,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/openai/openai-go/internal/apijson"
-	"github.com/openai/openai-go/internal/param"
-	"github.com/openai/openai-go/internal/requestconfig"
-	"github.com/openai/openai-go/option"
+	"github.com/joschahenningsen/openai-go/internal/apijson"
+	"github.com/joschahenningsen/openai-go/internal/param"
+	"github.com/joschahenningsen/openai-go/internal/requestconfig"
+	"github.com/joschahenningsen/openai-go/option"
 )
 
 // EmbeddingService contains methods and other services that help with interacting

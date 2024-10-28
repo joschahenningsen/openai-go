@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/invopop/jsonschema"
-	"github.com/openai/openai-go"
+	"github.com/joschahenningsen/openai-go"
 )
 
 // A struct that will be converted to a Structured Outputs response schema

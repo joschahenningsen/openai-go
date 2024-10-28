@@ -3,8 +3,8 @@
 package shared
 
 import (
-	"github.com/openai/openai-go/internal/apijson"
-	"github.com/openai/openai-go/internal/param"
+	"github.com/joschahenningsen/openai-go/internal/apijson"
+	"github.com/joschahenningsen/openai-go/internal/param"
 )
 
 type ErrorObject struct {

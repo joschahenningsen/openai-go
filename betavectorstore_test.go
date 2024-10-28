@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/internal/testutil"
-	"github.com/openai/openai-go/option"
+	"github.com/joschahenningsen/openai-go"
+	"github.com/joschahenningsen/openai-go/internal/testutil"
+	"github.com/joschahenningsen/openai-go/option"
 )
 
 func TestBetaVectorStoreNewWithOptionalParams(t *testing.T) {

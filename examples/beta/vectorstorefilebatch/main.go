@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/openai/openai-go"
+	"github.com/joschahenningsen/openai-go"
 )
 
 func main() {

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/openai/openai-go/internal/apijson"
-	"github.com/openai/openai-go/internal/requestconfig"
-	"github.com/openai/openai-go/option"
+	"github.com/joschahenningsen/openai-go/internal/apijson"
+	"github.com/joschahenningsen/openai-go/internal/requestconfig"
+	"github.com/joschahenningsen/openai-go/option"
 )
 
 type Page[T any] struct {

@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/internal/testutil"
-	"github.com/openai/openai-go/option"
-	"github.com/openai/openai-go/shared"
+	"github.com/joschahenningsen/openai-go"
+	"github.com/joschahenningsen/openai-go/internal/testutil"
+	"github.com/joschahenningsen/openai-go/option"
+	"github.com/joschahenningsen/openai-go/shared"
 )
 
 func TestCompletionNewWithOptionalParams(t *testing.T) {
