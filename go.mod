@@ -1,4 +1,4 @@
-module github.com/openai/openai-go
+module github.com/joschahenningsen/openai-go
 
 go 1.21
 
